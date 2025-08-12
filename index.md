@@ -34,7 +34,7 @@ classes: wide
 </div>
 
 
----
+
 
 ## Overview {#overview}
 MSc Computer Science graduate (Carleton University) with 3+ years across **Python**, **Django**, **React**, and **ML**. I build scalable, data‑driven applications and models with real‑world impact.
