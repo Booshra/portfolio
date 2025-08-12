@@ -1,6 +1,7 @@
 title: "Booshra Nazifa Mahmud"
-description: "Software Developer | AI & Machine Learning Enthusiast"
+description: "Software Developer • AI/ML"
 remote_theme: mmistakes/minimal-mistakes
+minimal_mistakes_skin: default
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
@@ -8,35 +9,4 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
 
-paginate: 5
-locale: "en-US"
-
-author:
-  name: "Booshra Nazifa Mahmud"
-  avatar: "/assets/images/profile.jpg"
-  bio: "MSc in Computer Science • AI/ML Developer • Passionate about real-life impact of AI"
-  location: "Ottawa, Canada"
-  email: "youremail@example.com"
-  links:
-    - label: "View My Resume"
-      icon: "fas fa-file-pdf"
-      url: "/assets/resume.pdf"
-    - label: "LinkedIn"
-      icon: "fab fa-linkedin"
-      url: "https://linkedin.com/in/your-linkedin"
-    - label: "GitHub"
-      icon: "fab fa-github"
-      url: "https://github.com/BooshraNazifa"
-
-# Navigation Menu
-main:
-  - title: "About Me"
-    url: /about/
-  - title: "Projects"
-    url: /projects/
-  - title: "Experience"
-    url: /experience/
-  - title: "Education"
-    url: /education/
-  - title: "Contact"
-    url: /contact/
+main: []
