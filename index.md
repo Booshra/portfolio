@@ -1,21 +1,38 @@
 ---
 layout: single
-author_profile: true
-title: "Booshra Nazifa Mahmud"
+author_profile: false
+title: ""
 toc: true
 toc_sticky: true
+classes: wide
 ---
 
-<div align="center">
-  <img src="/assets/images/image.jpg" alt="Booshra Nazifa Mahmud"
-       style="width:140px;border-radius:50%;margin-bottom:10px;">
-  <h3>Software Developer · AI & Machine Learning</h3>
+<style>
+  .hero { display:flex; align-items:center; gap:24px; margin: 6px 0 24px; }
+  .hero__img img{ width:170px; height:170px; object-fit:cover; border-radius:12px; }
+  .hero__text h1{ margin:0 0 6px; font-size:2.2rem; line-height:1.2; }
+  .hero__text p{ margin:0 0 12px; font-weight:600; }
+  @media (max-width: 720px){
+    .hero{ flex-direction:column; align-items:flex-start; }
+    .hero__img img{ width:120px; height:120px; }
+  }
+</style>
 
-  <a href="/assets/resume.pdf" class="btn btn--primary">View My Resume</a>
-  <a href="mailto:booshranazifamahmud@gmail.com" class="btn">Email Me</a>
-  <a href="https://linkedin.com/in/booshra/" class="btn">LinkedIn</a>
-  <a href="https://github.com/BooshraNazifa" class="btn">GitHub</a>
+<div class="hero">
+  <div class="hero__img">
+    <img src="/assets/images/image.jpg" alt="Booshra Nazifa Mahmud">
+  </div>
+  <div class="hero__text">
+    <h1>Booshra Nazifa Mahmud</h1>
+    <p>Software Developer · AI & Machine Learning</p>
+
+    <a href="/assets/resume.pdf" class="btn btn--primary">View My Resume</a>
+    <a href="mailto:booshranazifamahmud@gmail.com" class="btn">Email Me</a>
+    <a href="https://linkedin.com/in/booshra/" class="btn">LinkedIn</a>
+    <a href="https://github.com/BooshraNazifa" class="btn">GitHub</a>
+  </div>
 </div>
+
 
 ---
 
@@ -38,19 +55,19 @@ MSc Computer Science graduate (Carleton University) with 3+ years across **Pytho
 ResNet + ViViT pipeline for tool detection and phase recognition to support surgical decision‑making.  
 **Impact:** Improved accuracy by ~12% on internal splits.  
 **Stack:** PyTorch, TensorFlow, OpenCV, Python  
-[Code](#) · [Demo](#)
+[Code](https://github.com/BooshraNazifa/cataract_surgery) 
 
 ### Energy Demand Forecasting
 Time‑series forecasting to optimize national energy planning.  
 **Impact:** Reduced MAPE vs baseline; scenario analysis for policy decisions.  
 **Stack:** Python, Pandas, Scikit‑learn, Matplotlib  
-[Code](#)
+[Code](https://github.com/Booshra/NIDS-using-RF-and-CNN-BiLSTM)
 
 ### Django E‑commerce Platform
 Full‑stack e‑commerce with auth, payments, and admin.  
 **Impact:** Optimized queries and caching for faster page loads.  
 **Stack:** Django, PostgreSQL, AWS, HTML/CSS  
-[Code](#)
+
 
 ---
 
@@ -91,8 +108,8 @@ Short write‑ups from recent learning, experiments, or talks. Use this as a min
 ---
 
 ## Contact {#contact}
-- Email: youremail@example.com  
-- LinkedIn: https://linkedin.com/in/your-linkedin  
+- Email: booshranazifamahmud@example.com  
+- LinkedIn: https://linkedin.com/in/booshra  
 - GitHub: https://github.com/BooshraNazifa
 
 <p align="center">© 2025 Booshra Nazifa Mahmud</p>
