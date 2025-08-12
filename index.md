@@ -7,16 +7,14 @@ toc_sticky: true
 ---
 
 <div align="center">
+  <img src="/assets/images/image.jpg" alt="Booshra Nazifa Mahmud"
+       style="width:140px;border-radius:50%;margin-bottom:10px;">
+  <h3>Software Developer · AI & Machine Learning</h3>
 
-<img src="/assets/images/profile.jpg" alt="Booshra Nazifa Mahmud" style="width:140px;border-radius:50%;margin-bottom:10px;">
-
-### Software Developer · AI & Machine Learning
-
-[View My Resume](/assets/resume.pdf){: .btn .btn--primary } 
-[Email Me](mailto:youremail@example.com){: .btn } 
-[LinkedIn](https://linkedin.com/in/your-linkedin){: .btn } 
-[GitHub](https://github.com/BooshraNazifa){: .btn }
-
+  <a href="/assets/resume.pdf" class="btn btn--primary">View My Resume</a>
+  <a href="mailto:booshranazifamahmud@gmail.com" class="btn">Email Me</a>
+  <a href="https://linkedin.com/in/booshra/" class="btn">LinkedIn</a>
+  <a href="https://github.com/BooshraNazifa" class="btn">GitHub</a>
 </div>
 
 ---

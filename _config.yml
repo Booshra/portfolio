@@ -2,6 +2,14 @@ title: "Booshra Nazifa Mahmud"
 description: "Software Developer • AI/ML"
 remote_theme: mmistakes/minimal-mistakes
 minimal_mistakes_skin: default
+
+# GitHub Pages uses kramdown—enable options so MM buttons/HTML render nicely
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  parse_block_html: true
+
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
@@ -9,4 +17,5 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
 
+# single-page (no top nav)
 main: []
