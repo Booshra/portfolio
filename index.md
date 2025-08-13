@@ -2,8 +2,7 @@
 layout: single
 title: ""
 author_profile: false
-toc: true
-toc_sticky: true
+toc: false
 classes: wide
 ---
 
@@ -22,6 +21,10 @@ classes: wide
 </div>
 
 ---
+
+{:toc}
+* TOC will appear here after hero
+{:toc}
 
 ## Overview {#overview}
 MSc Computer Science graduate (Carleton University) with 3+ years across **Python**, **Django**, **React**, and **ML**. I build scalable, data‑driven applications and models with real‑world impact.
