@@ -1,0 +1,114 @@
+---
+layout: single
+title: ""
+author_profile: false
+toc: false
+toc_sticky: true
+classes: wide
+---
+
+{% capture main_md %}
+## Overview
+MSc Computer Science graduate (Carleton University) with 3+ years of experience spanning backend development, data-driven applications, and AI/ML solutions. Skilled in Python, Django, React, and cloud technologies, with a proven track record in technical support, incident management, and API/infrastructure troubleshooting. Proficient in AWS, RESTful APIs, and agile workflows, delivering scalable, high-impact solutions that improve system reliability, optimize performance, and support real-world decision-making.
+
+## Skills
+**Languages & Development:** Python, Java, JavaScript, SQL, Node.js, HTML/CSS  
+**Frameworks & Libraries:** Django, Flask, React.js, TensorFlow, PyTorch, Pandas, NumPy  
+**Databases & Cloud:** PostgreSQL, MySQL, MongoDB, AWS (Lambda, EC2, S3, DynamoDB), Docker  
+**Tools & Workflows:** RESTful APIs, GraphQL, GitHub Actions, Bitbucket Pipelines, Jenkins, OAuth, Tableau, Power BI, Microsoft Dynamics 365, Agile/Scrum
+
+## Projects {#projects}
+### Cataract Surgery Tool Detection & Phase Recognition
+ResNet + ViViT pipeline for tool detection and phase recognition to support surgical decision-making.  
+**Impact:** Improved accuracy by ~12% on internal splits.  
+**Stack:** PyTorch, TensorFlow, OpenCV, Python  
+[Code](https://github.com/BooshraNazifa/cataract_surgery)
+
+### External Exam Proctoring Services – Carleton University
+Redesigned and launched the [External Exam Proctoring Services page](https://carleton.ca/ses/external-exam-proctoring-services/) using WordPress and Gravity Forms, improving content usability and increasing traffic by 25% in 2 months.  
+**Stack:** WordPress, Gravity Forms, HTML/CSS, UI Content Design
+
+### Energy Demand Forecasting
+Time-series forecasting to optimize national energy planning.  
+**Impact:** Reduced MAPE vs baseline; scenario analysis for policy decisions.  
+**Stack:** Python, Pandas, Scikit-learn, Matplotlib  
+[Code](https://github.com/Booshra/NIDS-using-RF-and-CNN-BiLSTM)
+
+### Django E-commerce Platform
+Full-stack e-commerce with auth, payments, and admin.  
+**Impact:** Optimized queries and caching for faster page loads.  
+**Stack:** Django, PostgreSQL, AWS, HTML/CSS
+
+## Experience {#experience}
+- **Analyst – Prairies Economic Development Canada (Sept 2023 – Dec 2023)** – Built Power BI dashboards and automated reports with Microsoft Dynamics 365; developed SharePoint workflows to improve collaboration and document control.  
+- **Business Development Intern – Carleton University (Jun 2023 – Aug 2023)** – Led redesign of the External Exam Proctoring Services page; developed Tableau dashboards for operational insights.  
+- **Teaching Assistant – Carleton University (Sept 2022 – Apr 2024)** – Led labs on web applications and software engineering; mentored on backend development, APIs, and secure coding.  
+- **Software Developer – Monico Technologies (Jan 2020 – Nov 2021)** – Built and optimized Django/React platforms; deployed AWS environments; improved SQL query efficiency and API reliability.
+
+## Education {#education}
+**MSc, Computer Science** — Carleton University (2022–2024)  
+**BSc, Computer Science and Engineering** — BRAC University (2015–2019)
+
+<!-- ## Courses & Certifications {#courses}
+- Machine Learning (Stanford) · Deep Learning Specialization (Coursera)  
+- AWS Cloud Practitioner · Databases and SQL for Data Science
+
+## Learning Notes & Highlights {#learning}
+Short write-ups from recent learning, experiments, or talks. -->
+
+## Contact {#contact}
+- Email: booshranazifamahmud@gmail.com  
+- Mobile: +1-613-252-6806  
+
+
+{% endcapture %}
+
+<style>
+  /* 1) Kill the built‑in page header (removes the empty bar at the top) */
+  .layout--single .page__header,
+  .layout--single .page__title,
+  .layout--single .page__meta,
+  .layout--single .page__lead {
+    display: none !important;
+  }
+  .layout--single .page__inner-wrap { padding-top: 0 !important; }
+
+  /* 2) Make the main container full‑width and push content left */
+  /* Minimal Mistakes constrains/centers content via these wrappers. */
+  .initial-content,
+  .layout--single .page,
+  .layout--single .page__inner-wrap,
+  .wrapper {
+    max-width: none !important;
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  /* Give the page a small, even breathing room on both sides */
+  .initial-content { padding: 0 24px !important; }
+  .shell { display:flex; gap:40px; align-items:flex-start; flex-wrap:wrap; }
+  .sidebar { flex:0 0 220px; text-align:center; position:sticky; top:24px; }
+  .sidebar img { width:170px; height:170px; object-fit:cover; border-radius:50%; margin-bottom:12px; }
+  .sidebar .btn { display:block; margin-bottom:8px; }
+  .content { flex:1; min-width:300px; }
+</style>
+
+<div class="shell">
+  <!-- LEFT COLUMN -->
+  <aside class="sidebar">
+    <img src="/assets/images/image.jpg" alt="Booshra Nazifa Mahmud">
+    <h2 style="margin:0;">Booshra Nazifa Mahmud</h2>
+    <p style="margin:4px 0 16px;font-weight:600;">Software Developer · AI & Machine Learning</p>
+
+    <a href="https://linkedin.com/in/booshra/" class="btn">LinkedIn</a>
+    <a href="/assets/resume.pdf" class="btn btn--primary">View My Resume</a>
+    <a href="https://github.com/BooshraNazifa" class="btn">GitHub</a>
+    <a href="mailto:booshranazifamahmud@gmail.com" class="btn">Contact</a>
+  </aside>
+
+  <!-- RIGHT COLUMN: render captured Markdown -->
+  <main class="content">
+    {{ main_md | markdownify }}
+  </main>
+</div>
