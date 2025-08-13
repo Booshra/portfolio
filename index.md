@@ -6,24 +6,10 @@ toc: false
 classes: wide
 ---
 
-<div style="display:flex;align-items:center;gap:24px;margin:8px 0 28px;">
-  <img src="/assets/images/image.jpg" alt="Booshra Nazifa Mahmud"
-       style="width:170px;height:170px;object-fit:cover;border-radius:12px;">
-  <div>
-    <h1 style="margin:0 0 6px;font-size:2.2rem;line-height:1.2;">Booshra Nazifa Mahmud</h1>
-    <p style="margin:0 0 14px;font-weight:600;">Software Developer · AI & Machine Learning</p>
-
-    <a href="/assets/resume.pdf" class="btn btn--primary">View My Resume</a>
-    <a href="mailto:booshranazifamahmud@gmail.com" class="btn">Email Me</a>
-    <a href="https://linkedin.com/in/booshra/" class="btn">LinkedIn</a>
-    <a href="https://github.com/BooshraNazifa" class="btn">GitHub</a>
-  </div>
-</div>
-
----
+<div style="display:flex;align-items:center;gap:24px;margin:8px 0 28px;"><img src="/assets/images/image.jpg" alt="Booshra Nazifa Mahmud" style="width:170px;height:170px;object-fit:cover;border-radius:12px;margin-right:12px;"><div><h1 style="margin:0 0 6px;font-size:2.2rem;line-height:1.2;">Booshra Nazifa Mahmud</h1><p style="margin:0 0 14px;font-weight:600;">Software Developer · AI & Machine Learning</p><a href="/assets/resume.pdf" class="btn btn--primary">View My Resume</a> <a href="mailto:booshranazifamahmud@gmail.com" class="btn">Email Me</a> <a href="https://linkedin.com/in/booshra/" class="btn">LinkedIn</a> <a href="https://github.com/BooshraNazifa" class="btn">GitHub</a></div></div>
 
 {:toc}
-* TOC will appear here after hero
+* On this page
 {:toc}
 
 ## Overview {#overview}
