@@ -92,6 +92,22 @@ Short write-ups from recent learning, experiments, or talks. -->
   .sidebar img { width:170px; height:170px; object-fit:cover; border-radius:50%; margin-bottom:12px; }
   .sidebar .btn { display:block; margin-bottom:8px; }
   .content { flex:1; min-width:300px; }
+  @media (max-width: 820px) {
+    .shell { flex-direction: column; gap: 16px; }
+
+    .sidebar {
+      position: static !important;   /* was sticky */
+      top: auto !important;
+      z-index: auto !important;      /* make sure it doesn't sit above content */
+      width: 100%;
+      text-align: center;
+      margin-bottom: 8px;
+    }
+
+    .sidebar img { width: 140px; height: 140px; }  /* optional: smaller avatar */
+    .sidebar .btn { display: inline-block; margin: 0 8px 8px 0; }  /* buttons inline */
+    .content { width: 100%; min-width: 0; }         /* allow content to fill width */
+  }
 </style>
 
 <div class="shell">

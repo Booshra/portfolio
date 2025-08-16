@@ -1,4 +1,5 @@
 title: ""
+logo: /assets/images/logo-32.png
 description: "Software Developer • AI/ML"
 remote_theme: mmistakes/minimal-mistakes
 minimal_mistakes_skin: default
@@ -17,5 +18,20 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
 
-# single-page (no top nav)
-main: []
+
+# Top nav links
+main:
+  - title: "About Me"
+    url: "#overview"
+  - title: "Skills"
+    url: "#skills"
+  - title: "Projects"
+    url: "#projects"
+  - title: "Experience"
+    url: "#experience"
+  - title: "Education"
+    url: "#education"
+  - title: "Contact"
+    url: "#contact"
+  - title: "Resume/CV"
+    url: "/assets/resume.pdf"
